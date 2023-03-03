@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Banner from './components/layout/Banner';
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
+import Home from './pages/Home';
+import logo from './assets/logo.svg';
+import logoF from './assets/logoF.svg';
+import './styles/index.css';
 
+// eslint-disable-next-line no-undef
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // eslint-disable-next-line react/jsx-filename-extension
   <React.StrictMode>
-    <App />
+    <Banner>
+      <img src={logo} className="header-logo" alt="logo kasa" />
+      <Navbar />
+    </Banner>
+
+    <Home />
+
+    <Footer>
+      <img src={logoF} className="footer-logo" alt="logo kasa" />
+      <p className="footer-text">© 2020 Kasa. All rights reserved</p>
+    </Footer>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

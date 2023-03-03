@@ -1,0 +1,24 @@
+.footer {
+    max-width: 1440px;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto auto auto;
+    background: black;
+}
+
+.footer-logo {
+    width: 122px;
+    margin-top: 66px;
+}
+
+.footer-text {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+    margin-bottom: 29px;
+    margin-top: auto;
+}
