@@ -1,6 +1,6 @@
 import React from 'react';
 import slogan from '../../assets/slogan.png';
-import '../../styles/home/Slogan.css';
+import '../../styles/Home/Slogan.css';
 
 function Slogan() {
   return (

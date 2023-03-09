@@ -28,7 +28,7 @@
     transition: opacity 300ms, transform 300ms;
 }
 
-.header-navbar ul li a:hover::after, .header-navbar ul li a:focus::after   {
+.header-navbar ul li a:hover::after {
     opacity: 1;
     transform: translate3d(0, 0.2em, 0);
 }
@@ -39,7 +39,6 @@
     transform-origin: center;
 }
 
-.header-navbar ul li a:hover::after,
-.header-navbar ul li a:focus::after{
+.header-navbar ul li a:hover::after {
     transform: scale(1);
 }

@@ -1,14 +1,15 @@
-import '../../styles/layout/Navbar.css';
+import '../../styles/Header/Navbar.css';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <nav className="header-navbar">
       <ul>
         <li>
-          <a href="src/components#0">Accueil</a>
+          <Link to="/">Accueil</Link>
         </li>
         <li>
-          <a href="src/components#0">A propos</a>
+          <Link to="/about">A propos</Link>
         </li>
       </ul>
     </nav>

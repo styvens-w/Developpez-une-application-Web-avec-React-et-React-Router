@@ -1,0 +1,33 @@
+.carrousel {
+    height: 415px;
+    overflow: hidden;
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carrousel .carrousel-image {
+    position: absolute;
+    z-index: -9999;
+}
+
+.arrowLeft, .arrowRight {
+    cursor: pointer;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+.arrowLeft:hover, .arrowRight:hover {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.arrowLeft {
+    margin-left: 23px;
+}
+
+.arrowRight {
+    margin-right: 23px;
+}
