@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function E404() {
+function ErrorIndex() {
   return (
     <React.Fragment>
       <p className="cError">404</p>
@@ -13,4 +13,4 @@ function E404() {
   );
 }
 
-export default E404;
+export default ErrorIndex;

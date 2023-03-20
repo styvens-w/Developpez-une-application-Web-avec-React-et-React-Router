@@ -1,10 +1,10 @@
-import E404 from '../components/Error';
+import ErrorIndex from '../components/Error';
 import '../styles/Error/E404.css';
 
 function Error() {
   return (
     <main className="main-error">
-      <E404 />
+      <ErrorIndex />
     </main>
   );
 }

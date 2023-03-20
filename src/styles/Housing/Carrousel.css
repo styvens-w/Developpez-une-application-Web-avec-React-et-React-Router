@@ -5,12 +5,23 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: center;
 }
 
-.carrousel .carrousel-image {
+.carrousel .slide {
     position: absolute;
     z-index: -9999;
+}
+
+.slide {
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
 }
 
 .arrowLeft, .arrowRight {
@@ -25,9 +36,19 @@
 }
 
 .arrowLeft {
-    margin-left: 23px;
+    position: absolute;
+    left: 23px;
 }
 
 .arrowRight {
-    margin-right: 23px;
+    position: absolute;
+    right: 23px;
+}
+
+.compteur-images {
+    position: absolute;
+    bottom: 25px;
+    margin: 0;
+    color: white;
+    font-size: 18px;
 }
