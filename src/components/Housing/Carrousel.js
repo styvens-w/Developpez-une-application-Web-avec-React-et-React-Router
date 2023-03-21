@@ -46,7 +46,7 @@ function Carrousel() {
 
                     </section>
                 );
-            }
+            } else return null
         })
     );
 }

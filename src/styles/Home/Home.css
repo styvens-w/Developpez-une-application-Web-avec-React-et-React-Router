@@ -2,3 +2,18 @@
     max-width: 1240px;
     margin: 63px auto auto auto;
 }
+
+
+@media screen and (max-width: 1297px) {
+    .main-home {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 578px){
+    .main-home {
+        margin-top: 0;
+    }
+}

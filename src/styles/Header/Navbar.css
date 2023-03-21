@@ -42,3 +42,18 @@
 .header-navbar ul li a:hover::after {
     transform: scale(1);
 }
+
+
+@media screen and (max-width: 578px){
+    .header-navbar ul li a {
+        font-size: 12px;
+    }
+
+    .header-navbar ul li {
+        margin-left: 10px;
+    }
+
+    .header-navbar ul {
+        padding-left: 10px;
+    }
+}

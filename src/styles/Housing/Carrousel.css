@@ -14,6 +14,11 @@
     z-index: -9999;
 }
 
+.carrousel-image {
+    width: 100%;
+    min-height: 415px;
+}
+
 .slide {
     opacity: 0;
     transition: 1s ease;
@@ -47,8 +52,25 @@
 
 .compteur-images {
     position: absolute;
-    bottom: 25px;
-    margin: 0;
+    bottom: 0;
     color: white;
     font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 578px) {
+    .carrousel {
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .arrowLeft, .arrowRight {
+        height: 24px;
+        opacity: 1;
+    }
+
+    .compteur-images {
+        display: none;
+    }
 }
