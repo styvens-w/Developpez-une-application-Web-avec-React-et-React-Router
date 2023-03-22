@@ -20,7 +20,7 @@ root.render(
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="logement/:idLogement" element={<Housing />} />
+        <Route path="/logements/:idLogement" element={<Housing />} />
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Navigate to="/404" />} />
       </Routes>
