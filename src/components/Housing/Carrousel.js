@@ -46,7 +46,8 @@ function Carrousel() {
 
                     </section>
                 );
-            } else return null
+            }
+            return null
         })
     );
 }

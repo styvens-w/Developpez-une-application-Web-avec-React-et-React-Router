@@ -22,7 +22,8 @@ function Card() {
                         <Equipements key={equipments[0]} equipments={equipments} />
                     </section>
                 );
-            } else return null
+            }
+            return null;
         })
     );
 }
