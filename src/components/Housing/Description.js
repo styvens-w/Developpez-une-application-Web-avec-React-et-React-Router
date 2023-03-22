@@ -10,7 +10,7 @@ function Description({description}) {
             <button onClick={() => setIsOpen(!isOpen)} className="description-button">
                 Description
                 {isOpen ?
-                    <img src={dropdown} alt="dropdown"/> : <img style={{transform: 'rotate(180deg)'}} src={dropdown} alt="dropdown"/>
+                     <img style={{transform: 'rotate(180deg)'}} src={dropdown} alt="dropdown"/> : <img src={dropdown} alt="dropdown"/>
                 }
             </button>
 

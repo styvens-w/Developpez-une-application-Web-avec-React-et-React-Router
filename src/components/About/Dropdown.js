@@ -9,7 +9,7 @@ function Dropdown({title, description}) {
             <button onClick={() => setIsOpen(!isOpen)} className="dropdown-button">
                 {title}
                 {isOpen ?
-                    <img src={dropdown} alt="dropdown"/> : <img style={{transform: 'rotate(180deg)'}} src={dropdown} alt="dropdown"/>
+                    <img style={{transform: 'rotate(180deg)'}} src={dropdown} alt="dropdown"/> : <img src={dropdown} alt="dropdown"/>
                 }
             </button>
 
