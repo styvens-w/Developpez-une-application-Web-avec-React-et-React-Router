@@ -1,0 +1,22 @@
+.rating {
+    display: flex;
+    margin-top: 20px;
+}
+
+.rating img {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width: 578px) {
+    .rating {
+        margin-top: 0;
+    }
+
+    .rating img {
+        width: 15px;
+        height: 15px;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+}

@@ -1,12 +1,14 @@
-import '../../styles/Footer/Footer.css';
-import logoF from '../../assets/logoF.svg';
+import '../../styles/Footer.css';
+import logo from '../../assets/logoF.svg';
 import React from 'react';
+import Logo from '../Logo';
+import Copyright from '../Copyright';
 
 function Footer() {
   return (
     <footer className="footer">
-      <img src={logoF} className="footer-logo" alt="logo kasa" />
-      <p className="footer-text">© 2020 Kasa. All rights reserved</p>
+      <Logo logo={logo} />
+      <Copyright />
     </footer>
   );
 }

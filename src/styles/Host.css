@@ -1,0 +1,39 @@
+.host-profil {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.host-photo {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+
+.host-name {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #FF6060;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: right;
+    height: 64px;
+    width: 85px;
+    margin: 0 10px 0 auto;
+}
+
+
+@media screen and (max-width: 578px) {
+    .host-photo {
+        width: 32px;
+        height: 32px;
+    }
+
+    .host-name {
+        font-size: 12px;
+        line-height: 17px;
+        height: 33px;
+        width: 70px;
+    }
+}

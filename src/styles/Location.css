@@ -1,0 +1,16 @@
+.location {
+    color: #FF6060;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    line-height: 26px;
+}
+
+
+@media screen and (max-width: 578px) {
+    .location {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 5px;
+    }
+}

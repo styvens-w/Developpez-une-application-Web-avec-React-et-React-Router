@@ -1,16 +1,16 @@
-import HousingIndex from '../components/Housing'
-import '../styles/Housing/Housing.css';
-import {useEffect} from "react";
+import HousingIndex from '../components/Housing';
+import '../styles/Housing.css';
+import { useEffect } from 'react';
 
 function Housing() {
-    useEffect(() => {
-        document.title = `Kasa - Logement`
-    }, []);
+  useEffect(() => {
+    document.title = `Kasa - Logement`;
+  }, []);
 
-    return (
-      <main className="main-housing">
-          <HousingIndex />
-      </main>
+  return (
+    <main className="main-housing">
+      <HousingIndex />
+    </main>
   );
 }
 

@@ -1,0 +1,33 @@
+.collapse-button {
+    font-family: Montserrat, sans-serif;
+    background: #FF6060;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.collapse div {
+    margin-top: -10px;
+}
+
+.collapse-text {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #FF6060;
+}
+
+
+@media screen and (max-width: 578px){
+    .collapse-button img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .collapse div {
+        margin-top: -6px;
+    }
+}

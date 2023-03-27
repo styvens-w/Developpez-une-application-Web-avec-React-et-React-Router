@@ -1,17 +1,22 @@
-import Dropdowns from './Dropdowns';
-import about_img from '../../assets/about_img.png';
-import React from "react";
+import React from 'react';
+import Banner from '../Banner';
+import bannerAbout from '../../assets/bannerAbout.png';
+import Collapse from '../Collapse';
+import abouts from '../../datas/abouts.json';
+import '../../styles/Collapse.css';
 
 function AboutIndex() {
-    return (
-        <React.Fragment>
-            <section className="about-img">
-                <img src={about_img} alt="paysage"/>
-            </section>
+  return (
+    <React.Fragment>
+      <Banner img={bannerAbout} />
 
-            <Dropdowns />
-        </React.Fragment>
-    )
+      <section className="collapses">
+        {abouts.map(({ title, description }) => (
+          <Collapse key={title} button={title} text={description} />
+        ))}
+      </section>
+    </React.Fragment>
+  );
 }
 
-export default AboutIndex
+export default AboutIndex;

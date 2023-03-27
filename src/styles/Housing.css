@@ -1,0 +1,40 @@
+.main-housing {
+    max-width: 1240px;
+    margin: 20px auto auto auto;
+}
+
+.title {
+    width: 55%;
+}
+
+.host {
+    margin-top: 24px;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .main-housing {
+        margin: 27px 20px auto 20px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .host {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .title {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .host {
+        margin-top: 16px;
+        align-items: center;
+    }
+}

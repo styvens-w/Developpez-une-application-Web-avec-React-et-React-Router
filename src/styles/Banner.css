@@ -1,0 +1,53 @@
+.banner {
+    position: relative;
+    height: 223px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.banner img {
+    position: absolute;
+    z-index: -9999;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slogan {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 710px){
+    .slogan {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 578px){
+    .banner {
+        border-radius: 10px;
+    }
+
+    .slogan {
+        font-size: 24px;
+        margin-right: 0;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 359px) {
+    .slogan {
+        font-size: 20px;
+        margin-right: 84px;
+        max-width: 160px;
+    }
+}

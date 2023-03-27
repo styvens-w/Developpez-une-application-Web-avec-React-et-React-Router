@@ -1,0 +1,87 @@
+.info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info .collapse {
+    max-width: 582px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.info .collapse-équipements {
+    margin-left: 17px;
+}
+
+.info .collapse-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #FF6060;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 13px 12px 13px 20px;
+}
+
+.info .collapse div {
+    padding: 40px 12px 0 20px;
+    width: 100%;
+}
+
+.info .collapse-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+@media screen and (max-width: 1237px){
+    .info .collapse-description {
+        margin-left: 17px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info .collapse {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 578px){
+    .info .collapse {
+        margin-top: 16px;
+    }
+
+    .info .collapse-button {
+        border-radius: 5px;
+        font-size: 13px;
+        line-height: 19px;
+        padding: 6px 7px 6px 12px;
+    }
+
+    .info .collapse-button img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .info .collapse div {
+        padding: 23px 7px 0 12px;
+    }
+
+    .info .collapse-text {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
