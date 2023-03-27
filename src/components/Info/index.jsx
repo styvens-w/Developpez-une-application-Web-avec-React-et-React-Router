@@ -17,8 +17,6 @@ function Info({
   description,
   equipments,
 }) {
-  console.log(equipments);
-  console.log(description);
   return (
     <section key={id} className="info">
       <div className="title">
