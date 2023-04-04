@@ -1,12 +1,8 @@
 import ErrorIndex from '../components/Error';
-import { useEffect } from 'react';
 import '../styles/E404.css';
 
 function Error() {
-  useEffect(() => {
-    document.title = `Kasa - Page introuvable`;
-  }, []);
-
+  document.title = `Kasa - Page introuvable`;
   return (
     <main className="main-error">
       <ErrorIndex />
