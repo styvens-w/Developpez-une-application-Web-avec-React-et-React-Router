@@ -42,8 +42,10 @@
 
 
 @media screen and (max-width: 1237px){
-    .info .collapse-description {
-        margin-left: 17px;
+    .info .collapse {
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 100%;
     }
 }
 
@@ -51,11 +53,6 @@
     .info {
         display: flex;
         flex-direction: column;
-    }
-
-    .info .collapse {
-        margin-right: auto;
-        margin-left: auto;
     }
 }
 
