@@ -20,7 +20,7 @@ root.render(
     <BrowserRouter>
       {/* On appelle le composant Header qui s'affichera sur toutes les pages */}
       <Header />
-      {/* On utilise Routes qui contiendra un ensemble de route (itinéraires) enfant à partir de l'emplacement actuel */}
+      {/* On utilise Routes qui contiendront un ensemble de route (itinéraires) enfant à partir de l'emplacement actuel */}
       <Routes>
         {/* La liste des routes */}
         <Route exact path="/" element={<Home />} />

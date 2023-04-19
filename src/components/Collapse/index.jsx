@@ -23,7 +23,7 @@ function Collapse({ button, text }) {
       {
         isOpen ? (
           Array.isArray(text) ? (
-            <div>{text.map((txt) => <p className='collapse-text'>{txt}</p>)}</div>
+            <div>{text.map((txt, index) => <p key={index} className='collapse-text'>{txt}</p>)}</div>
           ) : (
             <div><p className="collapse-text">{text}</p></div>
           )
